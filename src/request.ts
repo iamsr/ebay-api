@@ -10,6 +10,10 @@ export const defaultGlobalHeaders = {
   'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE'
 }
 
+export const multipartHeader = {
+  'Content-Type': 'multipart/form-data'
+}
+
 export interface IEBayApiRequest<T = AxiosInstance> {
   readonly instance: T;
 
